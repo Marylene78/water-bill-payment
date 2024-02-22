@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int y; // number units used
+int w=80; //the price
+cout<<"Please enter the number units used"<<endl;
+cin>>y;
+int f=y*w; //the total price
+cout<<"This is the amount to pay "<<f<<endl;
+    return 0;
+}
